@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Почему я тебя люблю?</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        <main class="container">
+
+            <section class="screen active" id="startScreen">
+                <div class="heart">♥</div>
+
+                <h1>Почему я тебя люблю?</h1>
+
+                <p class="subtitle">
+                    Я бы могла просто сказать тебе это...
+                    <br>
+                    Но я решила сделать целый сайт.
+                </p>
+
+                <button id="startButton">
+                    Узнать почему.
+                </button>
+            </section>
+
+            <section class="screen" id="reasonScreen">
+                <p class="counter" id="counter">
+                    Причина 1 / 10
+                </p>
+
+                <div class="reason-card">
+                    <div class="small-heart">♥</div>
+
+                    <h2 id="reasonTitle">
+                        Я люблю тебя за...
+                    </h2>
+
+                    <p id="reasonText">
+                        ...
+                    </p>
+                </div>
+
+                <button id="nextButton">
+                    Следующая причина →
+                </button>
+            </section>
+
+            <section class="screen" id="finalScreen">
+                <div class="heart big-heart">♥</div>
+
+                <h1>И все таки...</h1>
+
+                <p class="final-text">
+                    Есть одна причина, которую невозможно
+                    записать в список.
+                </p>
+
+                <button id="finalButton">
+                    Показать
+                </button>
+            </section>
+
+            <section class="screen" id="loveScreen">
+                <div class="heart huge-heart">♥</div>
+
+                <h1>Потому что я просто люблю тебя.</h1>
+
+                <p class="final-text">
+                    Без причин.<br>
+                    Без условий.<br>
+                    Без списка.
+                </p>
+
+                <p class="signature">
+                    Просто тебя ♥
+                </p>
+            </section>
+
+        </main>
+
+        <script src="script.js"></script>
+
+
+    </body>
+</html>
